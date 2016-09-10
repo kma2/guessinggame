@@ -1,0 +1,87 @@
+html {
+  box-sizing: 'border-box'
+}
+
+body {
+  font-family: helvetica;
+  background-image: url('background.jpg');
+}
+
+.shadow {
+  box-shadow: 2px 2px 2px darkgray;
+}
+
+#app {
+    width: 60%;
+    margin:15px auto;
+    background-color: rgba(256, 256, 256, 0.8)
+}
+
+.center {
+  text-align: center;
+}
+
+#title {
+  font-size: 30px;
+}
+
+#subtitle {
+  font-size: 20px;
+  padding-bottom: 3%;
+}
+
+#input-parent { 
+  width: 160px;
+  margin: 5% auto 50px;
+  position: relative;
+}
+
+#player-input {
+/*  padding: 30px;*/
+  border-radius: 50%; /* round button */
+  width: 160px;
+  height: 160px;
+  font-size: 60px;
+}
+
+#submit {
+  border-radius: 50%; /* round button */
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 110px;
+  left: 110px;
+}
+
+#guesses {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guess {
+  font-size: 60px;
+  border: 3px solid black;
+  border-radius: 10%;
+  display: inline; /* converts block objects to inline */
+  padding: 0 20px;
+  background-color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
